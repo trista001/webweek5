@@ -1,0 +1,269 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	margin:  0 auto;
+	padding: 0 auto;
+}
+body{
+	background: url(../images/bg_html.jpg);
+	width: 100%;
+	height: 100%;
+}
+#wrap{
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+}
+.header{
+	width: 900px;
+	float: left;
+}
+.logo{
+	width: 160px;
+    padding: 50px 10px 20px 30px;
+    float: left;
+}
+ .logo a{
+	display: block;
+}
+.menu{
+	float: right;
+	width: 700px;
+}
+.link{
+	float: right;
+	margin: 30px 30px 10px 10px;
+}
+
+.link a{
+	display: inline-block;
+	padding: 5px 5px;
+
+}
+.table_menu{
+	float: left;
+	padding: 10px 0 0 70px;
+	margin: 10px 0 0 30px;
+}
+.table_menu td{
+	font-size: 21px;
+	color:black;
+	font-family:Arial;
+	padding: 10px 10px;
+}
+.table_menu a{
+	text-decoration: none;
+	color: black;
+}
+.table_menu a:hover{
+	color: rgb(115, 194, 217);
+
+}
+.main{
+	width: 900px;
+}
+.picture{
+	width: 640px; 
+	float: left;
+}
+.more{
+	width: 260px;
+	height: 417px;
+	float: right;
+	background-color: rgb(41, 41, 41);
+
+}
+.more h2{
+	font-size: 36px;
+	font-family:cursive;
+	color: rgb(1, 165, 202);
+	padding:40px 0 20px 35px;
+
+}
+.more p{
+	font-size: 12px;
+	font-family:cursive;
+	color: rgb(200, 200, 200);
+	line-height: 2em;
+	padding: 0 0 10px 35px;
+}
+.more input{
+	background-color:rgb(63, 63, 63);
+	color: white;
+	border:1px solid rgb(63,63,63);
+	padding: 13px 18px;
+	margin:20px 10px 40px 35px;
+}
+.middle{
+	width: 900px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	top: 600px;
+
+}
+.middle p{
+	font-size: 14px;
+	font-family:cursive;
+	line-height: 2em;
+	padding: 20px 20px 20px 40px;
+}
+.middle span{
+	color: rgb(115, 194, 217);
+}
+.footer{
+	width: 900px;
+	height: 480px;
+	background-color:white;
+	position:absolute;
+	top:760px;
+}
+.left{
+	width: 580px;
+	height: 420px;
+	float: left;
+}
+.event{
+	float: left;
+	width: 580px;
+	height: 200px;
+	padding: 0 0 10px 40px;
+	margin: 0;
+	
+}
+.event a{
+	text-decoration: none;
+	color: black;
+}
+.event a:hover{
+	color:blue;
+}
+.event img{
+	float: left;
+	padding: 10px 10px 0 0;
+}
+.left h2{
+	font-size:24px;
+	font-family:Arial;
+	color: black;
+	padding:30px 10px 10px 40px;
+	display: inline-block;
+}
+.left span{
+	color:rgb(115, 194, 217);
+}
+.event li{
+	float: left;
+	margin: 10px 0 0 0;
+	font-size: 12px;
+	font-family: cursive;
+	padding:0 0 0 10px;
+	line-height: 1.2em;
+}
+.list{
+	width: 270px;
+	height: 480px;
+	float: right;
+}
+.service{
+	width: 270px;
+	height: 210px;
+	float: left;
+}
+.list h2{
+	font-size: 24px;
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	padding: 30px 10px 10px 40px;
+}
+.list span{
+	color: rgb(115, 194, 217);
+}
+.service li{
+	font-size: 12px;
+	font-family: cursive;
+	float: left;
+	margin: 10px 20px;
+	padding: 0 0 0 20px;
+}
+.service ul{
+	list-style-image: url('images/dot_blue.gif');
+}
+.form h2{
+	font-size: 24px;
+	font-family: Arial;
+	color: black;
+	display: inline-block;
+	padding: 0 10px 10px 40px;
+}
+.form span{
+	color: rgb(115, 194, 217);
+}
+.form input{
+	background-color:white;
+	color: rgb(63,63,63);
+	border:1px solid rgb(63,63,63);
+	padding: 13px 18px;
+	margin:8px 10px 8px 35px;
+}
+.last{
+	position: absolute;
+	top:1300px;
+	left:350px;
+	padding: 0 0 40px 0;
+}
+.last p{
+	color: black;
+}
+
+.last a{
+	text-decoration: none;
+	color:rgb(115, 194, 217);
+}
+.first p{
+	border:2px solid black;
+}
